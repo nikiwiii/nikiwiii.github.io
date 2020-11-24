@@ -1,0 +1,57 @@
+@media (min-width: 0px) {
+.obraz
+{
+    content: url("image-1.png"); max-width: 50%;
+}
+.contact{
+    height: 100px;
+}
+}
+
+@media (min-width: 400px) {
+.obraz
+{
+    content: url("image-4.jpg"); max-width: 50%;}
+}
+
+@media (min-width: 550px) 
+{
+.obraz
+{
+    content: url("image-5.jpg"); max-width: 40%;
+}
+.contact li 
+{
+margin-top: 10px;
+float: left;
+margin-right: 15px;
+}
+
+label {
+display: inline-block;
+margin-right: 2%;
+}
+
+.contact {
+    height: 4rem;
+}
+}
+
+@media (min-width: 750px) {
+.obraz
+{
+    content: url("image-4.jpg" );
+}
+}
+
+@media (min-width: 1000px) {
+.obraz{
+    content: url("image-1.png");
+}
+}
+
+@media (min-width: 1260px) {
+.obraz{
+    content: url("image-2.jpg");
+}
+}

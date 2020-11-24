@@ -1,0 +1,249 @@
+ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.four-columns-all-poster {
+
+}
+
+@keyframes mymove {
+    50% {
+        color: rgb(44, 0, 165);
+    }
+  }
+
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-image: rgb(0, 119, 255);
+    background-repeat: no-repeat;
+}
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    font-size: 10px;
+}
+
+/*-------------NAV----------------*/
+
+.container-clearfix {
+
+    height: 500px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    line-height: 50px;
+    text-transform: inherit;
+    background: rgb(0, 162, 202) ;
+    border: none;
+    font-weight: 500;
+    color: #a193ff;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container-clearfix-gora {
+
+    height: 80px;
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    line-height: 50px;
+    text-transform: inherit;
+    background: rgb(44, 0, 165) ;
+    border: none;
+    font-weight: 500;
+    color: #ffffff;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;  
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.illustrations {
+
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+.typography {
+
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+.packaging {
+
+    padding: 0 50px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+/*-------------HEADER----------------*/
+
+.header-img {
+
+    position: relative;
+    height: 250px;
+}
+
+.header-bg {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+} 
+
+.header-text {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+
+
+.header {
+
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(44, 0, 165);
+    height: 50px;
+} 
+
+/*-------------------MAIN--------------------------*/
+
+
+main {
+
+    width: 60%;
+    margin: 50px auto;
+}
+
+main h2 {
+
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+main h4 {
+
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+section {
+
+    margin: 40px 0;
+}
+
+.portfolio {
+
+    position: relative;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*-------------------FOOTER--------------------------*/
+
+footer {
+    display: flex;
+    background-color: #ABC;
+    width: 100%;
+    color: white;
+    position: fixed;
+    max-height: 30%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.foot-ico {
+
+    margin-left: 50px;
+
+}
+
+.foot-ico i {
+
+    padding: 0 5px;
+    color: #fff;
+}
+
+.text {
+    bottom: 20px;
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bg-dribbble {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -10px -10px;
+}
+
+.bg-dribbble:hover {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -78px -10px;
+}
+
+.bg-facebook {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -10px -78px;
+}
+
+.bg-facebook:hover {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -78px -78px;
+}
+
+.bg-twitter:hover {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -146px -10px;
+}
+
+.bg-twitter {
+    width: 48px; height: 48px;
+    background: url('css_sprites.png') -146px -78px;
+}
